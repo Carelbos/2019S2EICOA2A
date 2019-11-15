@@ -29,7 +29,7 @@ def test3():
 @check50.check(compiles)
 def test4():
     """12 There are 335 days before the given month"""
-    check50.run("./cla_lab_4_1_4_2-A").stdin("12").stdout("There are 335 days before the given month).exit(0)
+    check50.run("./cla_lab_4_1_4_2-A").stdin("12").stdout("There are 335 days before the given month").exit(0)
     
 @check50.check(compiles)
 def test5():
