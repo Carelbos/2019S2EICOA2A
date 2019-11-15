@@ -1,4 +1,3 @@
-.cs50.yaml
 check50: 
   files: &check50_files
     - !exclude "*"
