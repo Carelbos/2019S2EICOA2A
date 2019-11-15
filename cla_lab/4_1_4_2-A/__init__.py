@@ -14,22 +14,22 @@ def compiles():
 @check50.check(compiles)
 def test1():
     """2 There are 31 days before the given month"""
-    check50.run("./cla_lab_4_1_4_2-A").stdin("2").stdout("There are 31 days before the given month").exit(0)
+    check50.run("./cla_lab_4_1_4_2-A").stdin("2").stdout("[Tt]here are 31 days before the given month").exit(0)
 
 @check50.check(compiles)
 def test2():
     """1 There are 0 days before the given month"""
-    check50.run("./cla_lab_4_1_4_2-A").stdin("1").stdout("There are 0 days before the given month").exit(0)
+    check50.run("./cla_lab_4_1_4_2-A").stdin("1").stdout("[Tt]here are 0 days before the given month").exit(0)
     
 @check50.check(compiles)
 def test3():
     """4 There are 91 days before the given month"""
-    check50.run("./cla_lab_4_1_4_2-A").stdin("4").stdout("There are 31 days before the given month").exit(0)
+    check50.run("./cla_lab_4_1_4_2-A").stdin("4").stdout("[Tt]here are 91 days before the given month").exit(0)
     
 @check50.check(compiles)
 def test4():
     """12 There are 335 days before the given month"""
-    check50.run("./cla_lab_4_1_4_2-A").stdin("12").stdout("There are 335 days before the given month").exit(0)
+    check50.run("./cla_lab_4_1_4_2-A").stdin("12").stdout("[Tt]here are 335 days before the given month").exit(0)
     
 @check50.check(compiles)
 def test5():
