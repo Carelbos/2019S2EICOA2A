@@ -1,8 +1,7 @@
-.cs50.yaml
 check50: 
   files: &check50_files
     - !exclude "*"
-    - !require 3_1_5_1-A.c
+    - !require cla_lab_3_1_5_1-A.c
 
 submit50:
   files: *check50_files
