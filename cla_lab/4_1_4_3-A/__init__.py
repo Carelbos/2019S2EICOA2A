@@ -8,7 +8,7 @@ def exists():
     
 @check50.check(exists)
 def compiles():
-    """prompt.c compiles"""
+    """cla_lab_4_1_4_3-A.c compiles"""
     check50.c.compile("cla_lab_4_1_4_3-A.c")
     
 @check50.check(compiles)
