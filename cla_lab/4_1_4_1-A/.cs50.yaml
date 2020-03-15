@@ -1,7 +1,7 @@
 check50: 
   files: &check50_files
     - !exclude "*"
-    - !require cla_lab_4_1_4_1-A.c
+    - !require month.c
 
 submit50:
   files: *check50_files
